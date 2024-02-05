@@ -1,0 +1,25 @@
+.note-container{
+    height: 100%;
+    padding-top: 35%;
+    margin-top: -160%;
+    /* background-color: brown; */
+}
+
+.note-container h1{
+    margin-left: 20%;
+    margin-top: -15%;
+    color: white;
+}
+
+.note-container h2{
+    margin-bottom: 10px;
+    /* background-color: blue; */
+}
+
+.note-container-notes{ 
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    overflow-y: scroll;
+}

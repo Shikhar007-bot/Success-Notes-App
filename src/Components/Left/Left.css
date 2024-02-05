@@ -1,0 +1,55 @@
+.Left{
+    margin-right: 10px;
+    margin-top: 50px;
+    height: 300%;
+    width: 10%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    /* background-color: aqua; */
+    
+}
+.Left img{
+    width: 60px;
+    cursor: pointer;
+    /* /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
+    align-items: center; 
+}
+.Left_bar_list{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    align-items: center;
+
+    /* open color palatte when click on add icon */
+    height: 0;  
+    transition: 300ms;
+    
+}
+
+.Left_bar_list_active{
+    height: 300px;
+}
+
+
+
+
+.Left_bar_list_item{
+    align-items: justify;
+    cursor: pointer;
+    list-style-type: none;
+    /* border-radius: 50%; */
+    height: 50px;
+    width: 20px;
+}
+
+
+
+
+
+
+

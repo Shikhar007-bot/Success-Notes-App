@@ -1,0 +1,49 @@
+.Mid{
+
+    height: 60vh;
+    width: 70%;
+    background: linear-gradient(135deg, orange 50%, cyan);
+    margin-left: 15%;
+    margin-top: -38%;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    /* box-shadow: 5px 10px 4px black; */
+
+}
+
+.list1{
+    list-style-type: none;
+}
+
+.title{
+    margin-top: -2%;
+}
+
+.description{
+    margin-top: -4%;
+}
+
+.inp1{
+    font-size: larger;
+    /* margin-top: %; */
+    border-radius: 20px;
+    height: 20px;
+    width: 130vh;
+    margin: 2px;
+    display: block;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.inp2{
+    border-radius: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    height: 80px;
+    width: 130vh;
+    margin: 2px;
+    display: block;
+    padding: 10px;
+    padding-left: 15px;
+}

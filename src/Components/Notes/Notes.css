@@ -1,0 +1,64 @@
+.note{
+    /* margin-top: -50%; */
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    height: 60vh;
+    width: 50vh;
+    background-color: rgb(42, 140, 165);
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+    
+}
+
+.notes-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    line-height: 1.875rem;
+    color: black;
+}
+
+.note_del{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: large;
+
+}
+
+.note_del img{
+    cursor: pointer;
+    opacity: 0;
+    height: 40px;
+    width: 40px;
+    transition: 400ms;
+}
+
+.note:hover .note_del img{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
